@@ -1,5 +1,6 @@
 """
     Bubblesort Algorithm
+    Basado en el libro "Essential Algorithms" de Rod Stephens
 
     Bubblesort uses the fairly obvious fact that if an array is not sorted, then it must 
     contain two adjacent elements that are out of order. The algorithm repeatedly 
