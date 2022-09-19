@@ -1,6 +1,6 @@
 """
     MergeSort Algorithm
-    Based on the book "Data Structures & Algorithms" by Goodrich, Tamassia y Goldwasser
+    Based on the book "Data Structures & Algorithms" by Goodrich, Tamassia and Goldwasser
 
     Mergesort uses a divide-and-conquer strategy. Instead of picking 
     a dividing item and splitting the items into two groups holding items that are 
