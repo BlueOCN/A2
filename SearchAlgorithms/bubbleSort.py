@@ -8,17 +8,16 @@
     find any more swaps.
 """
 
-from typing import Iterable
-
-
 def main():
+    # Data iterable to be sorted
     data = [6,2,8,9,5,7,3,1,4,10]
-    sortedData = bubbleSort(data)
     print(data)
+    # Sorted data
+    sortedData = bubbleSort(data)
     print(sortedData)
 
 
-def bubbleSort(dataset: Iterable) -> Iterable:
+def bubbleSort(data)->Iterable:
     """
         The code uses a Boolean variable named `notSorted` to keep track of whether 
         it has found a swap in its most recent pass through the `data`. As long as 
@@ -26,7 +25,6 @@ def bubbleSort(dataset: Iterable) -> Iterable:
         pairs of items that are out of order and swaps them. \n`returns` an ordered `Iterable`.
     """
     # Repeat until the data is sorted
-    data = dataset.copy()
     notSorted = True
     while notSorted:
         # Assume we won´t find a pair to swap

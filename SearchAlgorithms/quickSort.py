@@ -6,12 +6,12 @@
     into two pieces and then calls itself recursively to sort the pieces.
 """
 
-from typing import Iterable, Tuple
-
 
 def main():
+    # Data iterable to be sorted
     data = [6,2,8,9,5,7,3,1,4,10]
     print(data)
+    # Sorted data
     quickSort(data,0,len(data)-1)
     print(data)
 

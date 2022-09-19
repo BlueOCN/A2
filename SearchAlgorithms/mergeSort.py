@@ -10,14 +10,14 @@
     merges the two sorted halves into a combined sorted list.
 """
 
-from typing import Iterable
-
 
 def main():
+    # Data iterable to be sorted
     data = [6, 2, 8, 9, 5, 7, 3, 1, 4, 10]
-    sortedData = data.copy()
-    mergeSort(sortedData)
     print(data)
+    # Sorted data
+    sortedData = data
+    mergeSort(sortedData)
     print(sortedData)
 
 
