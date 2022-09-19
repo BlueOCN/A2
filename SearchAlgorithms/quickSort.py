@@ -1,6 +1,6 @@
 """
     Quicksort Algorithm
-    Basado en el libro "Essential Algorithms" de Rod Stephens
+    Based on the book "Essential Algorithms" by Rod Stephens
 
     The quicksort algorithm uses a divide-and-conquer strategy. It subdivides an array 
     into two pieces and then calls itself recursively to sort the pieces.
@@ -91,4 +91,5 @@ def quickSort(data: Iterable, start: int, end: int)->Iterable:
     quickSort(data, start, lo - 1)
     quickSort(data, lo + 1, end)
 
-main()
+if __name__ == '__main__':
+    main()
